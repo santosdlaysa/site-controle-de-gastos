@@ -83,14 +83,14 @@ export default function DeleteAccountPage() {
             </ol>
             <p>
               Após a confirmação, todos os seus dados são excluídos imediatamente e você é
-              desconectado do aplicativo.
+              desconectado do Orgenyx.
             </p>
           </section>
 
           {/* Data table */}
           <section className="space-y-4">
             <h2 className="text-base font-semibold text-slate-100">Dados excluídos e mantidos</h2>
-            <p>Ao excluir sua conta, os seguintes dados são tratados da forma abaixo:</p>
+            <p>Ao excluir sua conta no Orgenyx, os seguintes dados são tratados da forma abaixo:</p>
 
             <div className="overflow-x-auto rounded-2xl border border-slate-700/80">
               <table className="w-full text-left text-xs">
@@ -141,7 +141,7 @@ export default function DeleteAccountPage() {
               <span className="flex-shrink-0 text-xl">⚠️</span>
               <p className="text-red-300">
                 <strong className="text-red-200">Ação irreversível.</strong> Após a exclusão,
-                não é possível recuperar seus dados. Se desejar continuar usando o aplicativo
+                não é possível recuperar seus dados. Se desejar continuar usando o Orgenyx
                 no futuro, será necessário criar uma nova conta.
               </p>
             </div>
@@ -151,7 +151,7 @@ export default function DeleteAccountPage() {
           <section className="space-y-3">
             <h2 className="text-base font-semibold text-slate-100">Precisa de ajuda?</h2>
             <p>
-              Se tiver dificuldades para excluir sua conta pelo aplicativo ou quiser solicitar
+              Se tiver dificuldades para excluir sua conta pelo Orgenyx ou quiser solicitar
               a exclusão por outro meio, entre em contato:
             </p>
             <ul className="ml-4 list-disc space-y-1">
