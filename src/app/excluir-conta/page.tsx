@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Excluir Conta — Controle de Gastos",
+  title: "Excluir Conta — Orgenyx (Controle de Gastos)",
   description:
-    "Saiba como excluir sua conta e todos os dados do aplicativo Controle de Gastos.",
+    "Saiba como excluir sua conta e todos os dados do aplicativo Orgenyx (Controle de Gastos), desenvolvido por santosdlaysa.",
   robots: { index: true, follow: true },
 };
 
@@ -17,13 +17,13 @@ export default function DeleteAccountPage() {
         <header className="mb-10 flex items-center gap-3">
           <a href="/" className="flex items-center gap-3 no-underline">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-500/10 ring-1 ring-cyan-500/40">
-              <span className="text-lg font-bold text-cyan-400">CG</span>
+              <span className="text-lg font-bold text-cyan-400">OG</span>
             </div>
             <div>
               <p className="text-sm font-semibold tracking-tight text-slate-100">
-                Controle de Gastos
+                Orgenyx
               </p>
-              <p className="text-xs text-slate-400">Política de exclusão de conta</p>
+              <p className="text-xs text-slate-400">Controle de Gastos — Exclusão de conta</p>
             </div>
           </a>
         </header>
@@ -31,7 +31,7 @@ export default function DeleteAccountPage() {
         {/* Title block */}
         <div className="mb-10 space-y-2">
           <h1 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl">
-            Excluir Conta
+            Excluir Conta — Orgenyx
           </h1>
           <p className="text-sm text-slate-400">
             Última atualização: {LAST_UPDATED}
@@ -45,12 +45,16 @@ export default function DeleteAccountPage() {
           <section className="space-y-3">
             <div className="inline-flex items-center gap-2 rounded-xl bg-slate-800/60 px-4 py-2.5 ring-1 ring-slate-700/60">
               <span className="text-base">📊</span>
-              <span className="font-semibold text-slate-100">Controle de Gastos</span>
+              <span className="font-semibold text-slate-100">Orgenyx (Controle de Gastos)</span>
             </div>
             <p>
-              Esta página descreve como os usuários do aplicativo{" "}
-              <strong className="text-slate-100">Controle de Gastos</strong> podem solicitar
-              e confirmar a exclusão permanente de sua conta e de todos os dados associados.
+              Esta é a página oficial de exclusão de conta do aplicativo{" "}
+              <strong className="text-slate-100">Orgenyx (Controle de Gastos)</strong>,
+              desenvolvido por <strong className="text-slate-100">santosdlaysa</strong>.
+            </p>
+            <p>
+              Aqui os usuários podem consultar como excluir permanentemente sua conta
+              e seus dados associados ao app Orgenyx.
             </p>
           </section>
 
@@ -63,7 +67,7 @@ export default function DeleteAccountPage() {
             </p>
             <ol className="space-y-3">
               {[
-                <>Abra o aplicativo <strong className="text-slate-100">Controle de Gastos</strong> e faça login na sua conta.</>,
+                <>Abra o aplicativo <strong className="text-slate-100">Orgenyx (Controle de Gastos)</strong> e faça login na sua conta.</>,
                 <>Toque na aba <strong className="text-slate-100">Configurações</strong> (ícone de engrenagem, canto inferior direito).</>,
                 <>Na seção <strong className="text-slate-100">Conta</strong>, role até o botão <strong className="text-slate-100">Excluir conta</strong> (ícone de lixeira vermelha).</>,
                 <>Leia o aviso sobre o que será excluído e toque em <strong className="text-slate-100">Excluir conta</strong> para continuar.</>,
@@ -165,7 +169,7 @@ export default function DeleteAccountPage() {
         {/* Footer */}
         <footer className="mt-14 border-t border-slate-800/80 pt-6">
           <div className="flex flex-col gap-3 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-            <p>© {new Date().getFullYear()} Controle de Gastos. Todos os direitos reservados.</p>
+            <p>© {new Date().getFullYear()} Orgenyx — Controle de Gastos. Desenvolvido por santosdlaysa.</p>
             <a
               href="/"
               className="text-cyan-500 underline underline-offset-2 hover:text-cyan-400"
